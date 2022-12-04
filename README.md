@@ -1,0 +1,1 @@
+# text dosyasının parse edilmesi
