@@ -1,6 +1,6 @@
 <?php
 /*
-text dosyalarının parçalanması
+üst başlıklar hariç, sadece key => value
 */
 $ini_array1 = parse_ini_file("ornek.ini");
 echo "<pre>"; # görünüm ayarlanıyor
