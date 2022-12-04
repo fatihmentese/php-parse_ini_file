@@ -1,22 +1,21 @@
 <?php
 /*
-Örnek ini dosyasını parçalamak
+text dosyalarının parçalanması
 */
 $ini_array1 = parse_ini_file("ornek.ini");
-echo "<pre>";
+echo "<pre>"; # görünüm ayarlanıyor
 print_r($ini_array1);
 echo "</pre>";
 
-// Parse with sections
+/*
+üst başlıklar(bölümler) da dahil olarak yeni array hazırlanıyor
+*/
 $ini_array2 = parse_ini_file("ornek.ini", true);
-echo "<pre>";
+echo "<pre>"; # görünüm ayarlanıyor
 print_r($ini_array2);
 echo "</pre>";
 
-
-echo "</br>";
-echo "</br>";
-echo "</br>";
-
+echo "<pre>"; # görünüm ayarlanıyor
 print_r($ini_array1['phpversion']);
+echo "</pre>";
 ?>
